@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+#image-back-main {
+    #gradient-main {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: $gradient-1-light-transparent;
+    }
+}
+
+#jumbotron-content {
+    #login-form-container {
+        background-color: rgba(255,255,255,.4);
+        
+        h3, p , label {
+            color: #000;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #image-back-main {
+        #gradient-main {
+            background-color: rgba(0, 0, 0, 0);
+            background-image: $gradient-1-dark-transparent;
+        }
+    }
+
+    #jumbotron-content {
+        #login-form-container {
+            background-color: rgba(0,0,0,.4);
+            
+            h3, p , label {
+                color: #fff;
+            }
+        }
+    }
+}
