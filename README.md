@@ -1,6 +1,8 @@
 # sso.ameyrupji.com
 SSO Frontend for http://ameyrupji.com platform
 
+[![CircleCI](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com.svg?style=svg)](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com)
+
 ## Prerequisites
 
 ### Installed Software 
