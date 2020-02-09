@@ -44,7 +44,7 @@ $font-color: rgba(255, 255, 255, 1);
 
 
 #jumbotron-content {
-    padding-top: 200px;
+    padding-top: 100px;
     color: #fff !important;
     text-align: center;
     font-weight: 200;
@@ -87,6 +87,19 @@ $font-color: rgba(255, 255, 255, 1);
         }
   
         h3.title {
+            font-size: 20px;
+        }
+    }
+
+    #jumbotron-content {
+        padding-top: 50px;
+
+        #login-form-container {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        h3 {
             font-size: 20px;
         }
     }
