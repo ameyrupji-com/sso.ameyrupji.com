@@ -1,5 +1,6 @@
 # sso.ameyrupji.com
-SSO Frontend for http://ameyrupji.com platform
+SSO Frontend for http://ameyrupji.com platform. This will implement OAuth 2.0 (SAML in the future for supporting old systems) for SSO Authentication and JWT for Authorization.
+
 
 [![CircleCI](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com.svg?style=svg)](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com)
 
@@ -22,3 +23,6 @@ $ parcel index.hbs --no-cache
 ```
 
 ## Useful links to dependant repositories
+
+- https://oauth.net/2/
+- https://jwt.io
