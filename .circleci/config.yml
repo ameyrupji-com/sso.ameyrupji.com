@@ -105,7 +105,7 @@ jobs:
     steps:
       - *restore_repo
       - aws-s3/copy:
-          from: /home/circleci/ameyrupji/src/dist/ 
+          from: /home/circleci/sso-ameyrupji/src/dist/ 
           to: s3://sso.beta.ameyrupji.com/${CIRCLE_BRANCH}
           arguments: --recursive
 
