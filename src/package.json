@@ -19,7 +19,7 @@
     "sass": "^1.25.0"
   },
   "scripts": {
-    "dev": "parcel index.hbs --no-cache",
-    "build": "parcel build index.hbs --no-cache --public-url ./"
+    "dev": "parcel index.hbs apps.hbs --no-cache",
+    "build": "parcel build index.hbs apps.hbs --no-cache --public-url ./"
   }
 }
