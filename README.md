@@ -1,6 +1,8 @@
 # sso.ameyrupji.com
 SSO Frontend for http://ameyrupji.com platform. This will implement OAuth 2.0 (SAML in the future for supporting old systems) for SSO Authentication and JWT for Authorization.
 
+Backend API are using Python Flask deployed on AWS Lambda (Serverless). The code can be found [here](https://github.com/ameyrupji-com/api.sso.ameyrupji.com).
+
 
 [![CircleCI](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com.svg?style=svg)](https://circleci.com/gh/ameyrupji-com/sso.ameyrupji.com)
 
